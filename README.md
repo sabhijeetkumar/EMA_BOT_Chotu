@@ -14,7 +14,7 @@ This project is a Streamlit-based application that processes PDF and CSV files t
 
 Here's a visual representation of the application's workflow:
 
-![EMA_ASSIGNMENT_AYON Workflow](WhatsApp GIF 2024-06-17 at 16.07.32.gif)
+![EMA_ASSIGNMENT_AYON Workflow](Flow.gif)
 
 
 
