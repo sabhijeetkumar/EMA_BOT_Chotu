@@ -1,4 +1,4 @@
-# EMA_ASSIGNMENT_AYON
+# EMA ASSIGNMENT AYON
 
 This project is a Streamlit-based application that processes PDF and CSV files to extract text, create a vector store using Google's Generative AI embeddings, and allows users to ask questions from the processed documents. The app uses LangChain for text processing and conversational AI capabilities.
 
@@ -9,6 +9,14 @@ This project is a Streamlit-based application that processes PDF and CSV files t
 - Create a vector store using FAISS and Google Generative AI embeddings.
 - Ask questions from the processed documents and get detailed answers with citations.
 - View chat history and log details in the sidebar.
+
+## Workflow
+
+Here's a visual representation of the application's workflow:
+
+![EMA_ASSIGNMENT_AYON Workflow](WhatsApp GIF 2024-06-17 at 16.07.32.gif)
+
+
 
 ## Setup Instructions
 
@@ -65,7 +73,7 @@ You will be redirected automatically to access the application.
 
 ### Viewing Logs
 
-1. Toggle the "View Logs" option in the sidebar to view the latest log entries.
+Toggle the "View Logs" option in the sidebar to view the latest log entries.
 
 ## Logging
 
