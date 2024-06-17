@@ -16,9 +16,9 @@ Here's a visual representation of the application's workflow:
 
 ![EMA_ASSIGNMENT_AYON Workflow](Flow.gif)
 
+Find the running application at https://emanoya.streamlit.app/
 
-
-## Setup Instructions
+## Setup Instructions (To run locally)
 
 ### Prerequisites
 
