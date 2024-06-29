@@ -182,7 +182,7 @@ def main():
         st.write("-----")
     
     with st.sidebar:
-        on = st.toggle("lol")
+        on = st.toggle("log")
         if on:
             st.title("Logs")
             last_lines = read_last_lines("app.log", 5)
