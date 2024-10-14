@@ -1,4 +1,4 @@
-# EMA ASSIGNMENT AYON
+# EMA BOT
 
 This project is a Streamlit-based application that processes PDF and CSV files to extract text, create a vector store using Google's Generative AI embeddings, and allows users to ask questions from the processed documents. The app uses LangChain for text processing and conversational AI capabilities.
 
