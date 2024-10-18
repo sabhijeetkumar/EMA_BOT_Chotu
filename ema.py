@@ -148,8 +148,8 @@ def read_last_lines(filename, lines_count):
         return ''.join(deque(file, maxlen=lines_count))
 
 def main():
-    st.set_page_config(page_title="EMA_ASSIGNMENT_AYON")
-    st.header("EMA_AI BOT")
+    st.set_page_config(page_title="ROAMIO")
+    st.header("Roamio Bot")
 
     if 'chat_history' not in st.session_state:
         st.session_state['chat_history'] = []
