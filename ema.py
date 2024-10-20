@@ -85,17 +85,8 @@ def get_vector_store(text_chunks):
 def get_conversational_chain():
     try:
         prompt_template = """
-        Your name is Roamio. You are 
-        You are Roamio, an expert travel assistant. Your job is to provide personalized travel itineraries and assistance for the user's destination. 
-                Be specific, helpful, and include the following information:
-                1. Suggest transportation options (flights, trains, buses, taxis) with times and costs if applicable.
-                2. Recommend popular tourist spots, offbeat locations, and cultural landmarks.
-                3. Include accommodation options for different budgets (luxury, mid-range, budget).
-                4. Provide restaurant suggestions and local food experiences.
-                5. Share details of local events, festivals, or activities happening at the destination.
-                6. Give practical tips like weather forecast, currency exchange rates, safety precautions, etc.
-                7. Provide GPS coordinates for major locations.
-                Ensure the itinerary is comprehensive and well-organized, tailored to the user's input.
+        You are a great teacher.
+        Answer in the format of a teacher. You have to explain in a way so that the student understands well the concept and is clear regarding the same.
         History:\n{memory}
         Context:\n {context}?\n
         Question: \n{question}\n
@@ -148,8 +139,8 @@ def read_last_lines(filename, lines_count):
         return ''.join(deque(file, maxlen=lines_count))
 
 def main():
-    st.set_page_config(page_title="ROAMIO")
-    st.header("Roamio Bot")
+    st.set_page_config(page_title="EMA_ASSIGNMENT_AYON")
+    st.header("EMA_AI BOT")
 
     if 'chat_history' not in st.session_state:
         st.session_state['chat_history'] = []
@@ -191,7 +182,7 @@ def main():
         st.write("-----")
     
     with st.sidebar:
-        on = st.toggle("log")
+        on = st.toggle("lol")
         if on:
             st.title("Logs")
             last_lines = read_last_lines("app.log", 5)
@@ -199,3 +190,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
