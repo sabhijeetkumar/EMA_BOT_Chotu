@@ -139,8 +139,8 @@ def read_last_lines(filename, lines_count):
         return ''.join(deque(file, maxlen=lines_count))
 
 def main():
-    st.set_page_config(page_title="EMA_ASSIGNMENT_AYON")
-    st.header("EMA_AI BOT")
+    st.set_page_config(page_title="Chotu Bot")
+    st.header("CHOTU BOT")
 
     if 'chat_history' not in st.session_state:
         st.session_state['chat_history'] = []
@@ -173,7 +173,7 @@ def main():
                 else:
                     st.error("Failed to process PDF or CSV files. Check logs for details.")
         
-        st.write("*`by Ayon Somaddar`*")        
+        st.write("*`by Abhijeet Kumar`*")        
 
     if st.session_state['chat_history']:
         st.title("Chat History")
@@ -182,7 +182,7 @@ def main():
         st.write("-----")
     
     with st.sidebar:
-        on = st.toggle("lol")
+        on = st.toggle("log")
         if on:
             st.title("Logs")
             last_lines = read_last_lines("app.log", 5)
